@@ -1,0 +1,145 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: verdana, sans-serif;
+}
+@keyframes example {
+    0% {background-color: black;}
+    25% {background-color: palevioletred;}
+    50% {background-color: rgb(133, 162, 241);}
+    100% {background-color: rgb(209, 160, 69);}
+    
+}
+
+h1 {
+    color:#66bfbf;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+    font-family: 'Merriweather', serif;
+}
+h2 {
+    color: #66bfbf;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+h3 {
+    color: #11999e;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 8px;
+    color: #11999e;
+    width: 5%;
+}
+.profile .profile{
+    width: 30%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 8px;
+    height: 200px;
+    color: #66bfbf;
+    margin: auto;
+}
+.profile{
+    margin: 25px 450px 10px 450px;
+    line-height: 2;
+}
+
+.cooking {
+    width: 20%;
+    float: left;
+    margin-left: auto;
+    margin-right: 30px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.hotchili{
+    width: 10%;
+    float: right;
+   
+}
+
+.contactme {
+    color:#66bfbf;
+
+}
+.btn {
+    background-color: #11999e;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+    display:inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.skill-row1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    text-align: left;
+}
+.skill-row {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.bottom-container {
+    background-color: #11999e;
+    height: 150px;
+    animation-duration: 10s;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 30px 20px;
+    color:#71ecec;
+    display: inline-block;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.copyright{
+    color: white;
+}
+.footer-link:hover {opacity: 1;}
+.btn:hover {opacity: 1;}
+.btn.active{
+    background-color: black;
+    transform: translateY(2px);
+}
